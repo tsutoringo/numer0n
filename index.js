@@ -1,7 +1,7 @@
 var client = require("./lib/client");
 
 function main() {
-    new client();
+    return new client();
 }
 
 module.exports = main;
